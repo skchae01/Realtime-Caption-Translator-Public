@@ -52,7 +52,7 @@ GOOGLE_PROJECT_ID=your_google_project_id_here
 
 ### 4. Run the Tool
 ```bash
-python Realtime-Title-Translator_v7.0.py
+python Realtime-Title-Translator_v1.0.py
 ```
 
 ---
