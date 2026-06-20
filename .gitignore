@@ -1,0 +1,31 @@
+# Sensitive configuration
+.env
+report.json
+gitleaks_detect.md
+Realtime-Caption-Translator-Public.git
+Realtime-Caption-Translator-Public.git.bfg-report
+
+# Temporary or system files
+*.pyc
+__pycache__/
+.DS_Store
+Thumbs.db
+
+# Word/Office temporary files
+~$*
+*.tmp
+*.log
+*.bak
+*.swp
+*.swo
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build and distribution files
+dist/
+build/
+
