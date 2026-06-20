@@ -162,8 +162,8 @@ except ImportError:
 
 # 百度通用翻译API,不包含词典、tts语音合成等资源，如有相关需求请联系translate_api@baidu.com
 # Settings for Baidu  
-appid = os.getenv('BAIDU_APP_ID', '20210210000695427')
-secretKey = os.getenv('BAIDU_SECRET_KEY', 'wS6KbtnywH22bs0VD_at')
+# appid = os.getenv('BAIDU_APP_ID', '')
+# secretKey = os.getenv('BAIDU_SECRET_KEY', '')
 httpClient = None
 myurl = '/api/trans/vip/translate'
 fromLang = 'auto'   # 原文语种  # fromLang = 'zh'
@@ -594,7 +594,7 @@ def translate_google(text, max_retries=3):
     return "Error: Unknown error"
 
 def translate_deepl(text, target_lang):
-    deepl_key = os.getenv('DEEPL_AUTH_KEY', '679719e0-4c2c-4c4e-b0fb-7b9c00d3afa5:fx')
+    # deepl_key = os.getenv('DEEPL_AUTH_KEY', '')
     url = 'https://api-free.deepl.com/v2/translate'
     headers = {
         'Authorization': f'DeepL-Auth-Key {deepl_key}',
